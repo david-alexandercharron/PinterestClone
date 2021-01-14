@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App default theme colors -->
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#737373</color>
+    <color name="colorAccent">#e60024</color>
+
+    <!-- Colors for the activities -->
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGrey">#737373</color>
+    <color name="colorTransparent">#00FAFAFA</color>
+    <color name="colorDefaultButton">#D6D7D7</color>
+    <color name="colorShadeTransparent">#88000000</color>
+    <color name="colorViewBackground">#FAFAFA</color>
+
+
+</resources>

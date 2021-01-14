@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Home menu -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/rounded_home_button"
+            android:text="@string/menu_all"
+            android:textSize="18dp"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:id="@+id/home_today"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorBlack"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingEnd="8dp"
+            android:paddingTop="8dp"
+            android:text="@string/menu_today"
+            android:textSize="18dp"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:id="@+id/home_following"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorBlack"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingEnd="8dp"
+            android:paddingTop="8dp"
+            android:text="@string/menu_following"
+            android:textSize="18dp"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+    <!-- List of category items -->
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <ProgressBar
+            android:id="@+id/category_loading"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:indeterminate="true"/>
+
+        <!-- Category items -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/category_items_list_view"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            app:layoutManager="androidx.recyclerview.widget.StaggeredGridLayoutManager"
+            app:spanCount="2"/>
+
+        <!-- Floating menu -->
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/home_menu"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_margin="30dp"
+            android:elevation="2dp"
+            android:background="@drawable/home_menu_background"
+            app:menu="@menu/home_menu_items"
+            app:labelVisibilityMode="labeled"
+            app:itemIconSize="30dp"
+            app:itemRippleColor="@color/colorTransparent"/>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</LinearLayout>

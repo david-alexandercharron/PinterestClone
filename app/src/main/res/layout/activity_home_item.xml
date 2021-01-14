@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Full Sized Image -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/home_item_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/ic_launcher_round"
+                android:scaleType="fitCenter"/>
+
+            <!-- Button to go back -->
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:paddingLeft="15dp"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:background="@drawable/rounded_back_button"
+                android:src="@drawable/ic_baseline_arrow_back_ios_24"/>
+
+        </RelativeLayout>
+
+        <!-- From url (google.com) -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/from_google"/>
+
+        <!-- Short Description-->
+        <TextView
+            android:id="@+id/home_item_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="10pt"
+            android:textColor="@color/colorBlack"
+            tools:text="Description"/>
+
+        <!-- Visit and Save -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/visit_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:textAllCaps="false"
+                android:text="@string/category_item_visit"
+                android:background="@drawable/rounded_button"/>
+
+            <Button
+                android:id="@+id/save_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textAllCaps="false"
+                android:textColor="@color/colorWhite"
+                android:text="@string/category_item_save"
+                android:background="@drawable/rounded_button_save"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

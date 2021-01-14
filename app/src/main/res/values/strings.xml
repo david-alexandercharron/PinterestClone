@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- Application name -->
+    <string name="app_name">Pinterest</string>
+
+    <!-- Facebook login information -->
+    <string name="facebook_application_id" translatable="false">447641706233799</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb360d3531e68a3488de06d597de08a370</string>
+
+    <!-- Category Activity -->
+    <string name="category_welcome_text">Welcome to Pinterest</string>
+    <string name="category_choose_text">Pick 5 or more to get started</string>
+    <string name="category_next_button">Next</string>
+
+    <!-- Categories-->
+    <string name="category_mens_health_fitness">Men\'s health fitness</string>
+    <string name="category_memes">Memes</string>
+    <string name="category_diy_and_home_improvement">Diy and home improvement</string>
+    <string name="category_home_decor">Home Decor</string>
+    <string name="category_mens_style">Men\'s Style</string>
+    <string name="category_food_and_drink">Food and drink</string>
+    <string name="category_woodworking">Woodworking</string>
+    <string name="category_gadgets">Gadgets</string>
+    <string name="category_backyards">Backyards</string>
+    <string name="category_mens_hairstyle">Men\'s hairstyle</string>
+    <string name="category_tattoos_and_body_art">Tattoos and Body Art</string>
+    <string name="category_survival_tips">Survival tips</string>
+
+    <!-- Home Page -->
+    <string name="menu_all">All</string>
+    <string name="menu_today">Today</string>
+    <string name="menu_following">Following</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_notifications">Notifications</string>
+    <string name="menu_saved">Saved</string>
+
+    <!-- Category Item -->
+    <string name="from_google">From google.com</string>
+    <string name="category_item_visit">Visit</string>
+    <string name="category_item_save">Save</string>
+
+    <!-- Saved Page -->
+    <string name="saved_items">Saves</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_general">Actions</string>
+    <string name="settings_clear_saves">Clear Saves</string>
+    <string name="settings_clear_categories">Clear Categories</string>
+    <string name="settings_log_out">Log out</string>
+
+
+</resources>

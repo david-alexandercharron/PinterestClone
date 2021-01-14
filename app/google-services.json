@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "953004028939",
+    "firebase_url": "https://pinterest-ca575.firebaseio.com",
+    "project_id": "pinterest-ca575",
+    "storage_bucket": "pinterest-ca575.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953004028939:android:12379e8cad3199d1e3c30e",
+        "android_client_info": {
+          "package_name": "com.example.pinterest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953004028939-hldvbe9t8gucu1fj62raomh3tbekd326.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pinterest",
+            "certificate_hash": "82f7d5685cb2080453d5e2cff7f1f4ea0b70430c"
+          }
+        },
+        {
+          "client_id": "953004028939-1544lfolcqbg2a7qqbal1kg8u98q17pr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyVcQcFfN7--n28UGgivTSOGpeQSQykPY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953004028939-1544lfolcqbg2a7qqbal1kg8u98q17pr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

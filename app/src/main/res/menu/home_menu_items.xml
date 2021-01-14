@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Home -->
+    <item
+        android:id="@+id/home_menu_item"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/menu_home"
+        app:showAsAction="always|withText|collapseActionView" />
+
+    <!-- Search -->
+    <item
+        android:id="@+id/search_menu_item"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="@string/menu_search"
+        app:showAsAction="always|withText" />
+
+    <!-- Notifications -->
+    <item
+        android:id="@+id/notifications_menu_item"
+        android:icon="@drawable/ic_baseline_notifications_24"
+        android:title="@string/menu_notifications"
+        app:showAsAction="always|withText" />
+
+    <!-- Saved -->
+    <item
+            android:id="@+id/saved_menu_item"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="@string/menu_saved"
+        app:showAsAction="always|withText" />
+
+</menu>
